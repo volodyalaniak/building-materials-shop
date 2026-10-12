@@ -1,0 +1,126 @@
+/* Верхній білий хедер */
+.top-header {
+    width: 100%;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1ch 145px;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.logo img {
+    height: 75px;
+}
+
+.logo span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.header-contact {
+    text-align: right;
+}
+
+.contact-phone {
+    color: red;
+    font-weight: bold;
+}
+
+.header-actions {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Верхній білий хедер */
+.header-actions a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header-actions a:hover {
+    color: #ff0000; /* Колір підсвічування при наведенні */
+    text-decoration: none; /* Додаткове підкреслення, якщо потрібно */
+}
+
+.header-actions .cart-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -17px;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    padding: 1px 5px;
+}
+
+/* Нижній чорний хедер */
+.main-header {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 20px 160px;
+    box-sizing: border-box;
+}
+
+.main-header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.main-header nav ul li a.highlight {
+    color: red;
+}
+
+.main-header nav ul li a:hover {
+    text-decoration: underline;
+}
+/* Стиль для кнопки профілю */
+.profile-button {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #000;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.profile-button:hover {
+    color: #ff0000;
+}

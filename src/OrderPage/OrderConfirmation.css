@@ -1,0 +1,62 @@
+.confirmation-container {
+    max-width: 800px;
+    margin: 75px auto 80px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.confirmation-container h1 {
+    color: #333;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.confirmation-container p {
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.order-details {
+    text-align: left;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000; /* Додано явний чорний колір тексту */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.order-details p {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: #000; /* Додано явний чорний колір тексту */
+}
+
+.order-details p strong {
+    color: #000; /* чорний текст для важливих даних */
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.home-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1.1em;
+    color: #fff;
+    background-color: red;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.home-link:hover {
+    background-color: darkred;
+}

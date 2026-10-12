@@ -1,0 +1,119 @@
+/* Контейнер */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Блок авторизації */
+.auth-content {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Заголовок */
+.auth-content h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Форма */
+.auth-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Поля вводу */
+.auth-content label {
+    font-size: 14px;
+    color: #555;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.auth-content input {
+    padding: 12px 15px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.auth-content input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Опції під формою */
+.auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+/* Кнопка посилання */
+.link-button {
+    background: none;
+    border: none;
+    color: #007bff;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+    padding: 0;
+}
+
+.link-button:hover {
+    color: #0056b3;
+}
+
+/* Основна кнопка */
+.submit-btn {
+    background: #ff0000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.submit-btn:hover {
+    background: #cc0000;
+}
+
+/* Додаткові стилі */
+.auth-content p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.auth-content p button {
+    font-size: 14px;
+    color: #007bff;
+    background: none;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.auth-content p button:hover {
+    color: #0056b3;
+}

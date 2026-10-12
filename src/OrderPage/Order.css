@@ -1,0 +1,116 @@
+/* Додаємо префікси класів для сторінки замовлення */
+.order-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.order-content {
+    display: flex;
+    gap: 20px;
+}
+
+.order-form {
+    flex: 2;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    align-items: center;
+}
+
+.order-form .form-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.order-form .form-group input,
+.order-form .form-group select,
+.order-form .form-group textarea {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.order-form textarea {
+    resize: none;
+    height: 80px;
+}
+
+.order-form button {
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.order-form button:hover {
+    background-color: darkred;
+}
+
+.order-summary {
+    flex: 1;
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Розподіл між верхніми елементами і "Загалом" */
+    height: 100%;
+}
+
+.order-summary h2 {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+
+.order-summary .order-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.order-summary .total {
+    margin-top: 15px; /* Відсуває донизу */
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center; /* Центрує текст */
+}
+
+.cart-items-slider {
+    flex: 1; /* Займає доступний простір */
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 300px; /* Регулюйте висоту за потреби */
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background: #fff;
+    padding: 10px;
+}
+
+.cart-items-wrapper {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    gap: 10px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
