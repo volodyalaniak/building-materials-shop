@@ -2,7 +2,7 @@
 
 A full-stack e-commerce web app for selling building materials. Customers can browse a catalog, filter and search products, manage a cart and place orders. Admins manage products and orders from a separate panel.
 
-Built as a university coursework project (Lviv Polytechnic National University).
+Built as a university coursework project.
 
 ## Features
 
